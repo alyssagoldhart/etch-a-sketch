@@ -1,0 +1,17 @@
+body {
+  justify-items: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.grid {
+  display: flex;
+  border: solid black 1px;
+  width: 800px;
+  height: 800px;
+  flex-wrap: wrap;
+}
+
+.square-div {
+  border: solid black 1px;
+  flex: 1 1 calc(100%/17);
+}
