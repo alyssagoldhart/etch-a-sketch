@@ -9,3 +9,7 @@ function createGrid(row, column) {
 };
 
 createGrid(16, 16);
+
+grid.addEventListener("mouseover", (event) => {
+  event.target.style.backgroundColor = "orange";
+});
