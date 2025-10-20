@@ -10,8 +10,3 @@ body {
   height: 800px;
   flex-wrap: wrap;
 }
-
-.square-div {
-  border: solid black 1px;
-  flex: 1 1 calc(100%/17);
-}
