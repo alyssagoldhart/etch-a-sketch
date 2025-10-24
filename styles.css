@@ -1,6 +1,16 @@
 body {
   justify-items: center;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 .container {
@@ -16,4 +26,16 @@ body {
   width: 800px;
   height: 800px;
   flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+button {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
