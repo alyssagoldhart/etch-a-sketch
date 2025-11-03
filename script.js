@@ -35,11 +35,12 @@ function clearGrid() {
 };
 
 function changeGrid() {
-  
   const gridSize = prompt('Enter a number between 4 and 100');
-  const newGridSize = Number(gridSize);
-  clearGrid();
-  createGrid(newGridSize);
+  if (gridSize != null) {
+    const newGridSize = Number(gridSize);
+    clearGrid();
+    createGrid(newGridSize);
+  }
 };
 
 function getRandomInt(min, max) {
