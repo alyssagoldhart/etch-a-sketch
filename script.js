@@ -17,7 +17,7 @@ function createGrid(size) {
       square.classList.add("square");
       row.appendChild(square);
       square.style.flex = 1;
-      square.style.border = "0.5px solid white";
+      square.style.border = "0.25px solid white";
       square.addEventListener("mouseover", (event) => {
         event.target.style.backgroundColor = "black";
       });
