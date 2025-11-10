@@ -35,11 +35,13 @@ function clearGrid() {
 };
 
 function changeGrid() {
-  const gridSize = prompt('Enter a number between 4 and 100');
-  if (gridSize != null) {
+  const gridSize = prompt('Enter a number between 2 and 100');
+  if (gridSize != null && (gridSize > 1 && gridSize < 101)) {
     const newGridSize = Number(gridSize);
     clearGrid();
     createGrid(newGridSize);
+  } else {
+    alert("Error! Please enter a valid number between 2 and 100")
   }
 };
 
